@@ -1,1 +1,5 @@
-document.querySelector("h1").innerHTML = "sad";
+import { home } from "./components/home";
+import q from "./functions/selectors";
+import "./pollyfils/pollyfils";
+
+console.log(q(".class"));
